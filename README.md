@@ -7,13 +7,8 @@ Welcome to the "Ray Tracing in One Weekend" project! This project is an implemen
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Prerequisites](#prerequisites)
+
 
 ## Overview
 
@@ -37,33 +32,4 @@ To build and run this project, you will need:
 - CMake (version 3.10 or later)
 - Git (for cloning the repository)
 
-### Installation
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/ray-tracing-in-one-weekend.git
-    cd ray-tracing-in-one-weekend
-    ```
-
-2. Create a build directory and navigate to it:
-    ```sh
-    mkdir build
-    cd build
-    ```
-
-3. Configure the project with CMake:
-    ```sh
-    cmake ..
-    ```
-
-4. Build the project:
-    ```sh
-    make
-    ```
-
-## Usage
-
-After building the project, you can run the ray tracer to generate an image. The output will be saved to a file named `output.ppm` in the build directory.
-
-```sh
-./raytracer
